@@ -1,0 +1,9 @@
+logs/
+*.log
+*.tar.gz
+.env
+*.pem
+.aws/
+__pycache__/
+.DS_Store
+/tmp/
