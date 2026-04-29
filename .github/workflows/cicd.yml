@@ -38,6 +38,9 @@ jobs:
         
       - name: Debug Project Structure
         run: ls -R
+          pwd
+          ls -la
+          ls -R
 
   # ─────────────────────────────
   # 2. BUILD & PUSH IMAGE
