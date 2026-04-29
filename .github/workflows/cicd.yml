@@ -35,6 +35,9 @@ jobs:
 
       - name: Run Tests
         run: pytest tests/ -v
+        
+      - name: Debug Project Structure
+        run: ls -R
 
   # ─────────────────────────────
   # 2. BUILD & PUSH IMAGE
